@@ -1,0 +1,20 @@
+p{
+    color: blue;
+    background-color: black;
+    font-size: 40px;
+    /* le em est une unite de mesure comme le px .Mais en em le 1 signifie etat normal et 2 signifie deux fois plus gros que l'etat normal*/
+}
+input{
+    background-color: rgba(46, 165, 22, 0.842);
+}
+body {
+    background-image: url('image1.jpg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter:blur(100px);/*pour les filtres de plans arriere comme le floutage et pleins d'autres choses*/
+    opacity: 0.7;/*permet de controler la transparence d'un element...lorsque la valeur est petite l'element est plus transparent*/
+    background-clip: border-box;/*delimiter la zone ou l'arriere plan d'un element s'etend*/
+    
+}
